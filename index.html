@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dynamic Users</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        height:100%;
+      }
+
+      body {
+        height: 100%;
+        background: linear-gradient(to right bottom, #323449, #c3f872) no-repeat;
+        display: grid;
+        place-items: center;
+      }
+
+      .container {
+        max-width: 700px;
+        width: 100%;
+        background: #87c4ff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        border-radius: 8px;
+        padding: 38px;
+        box-shadow: 0px 0px 5px white;
+        overflow-x: scroll;
+        overflow: x mandatory;
+        
+      }
+      .card {
+        border-radius: 8px;
+        padding: 28px;
+        color: #333;
+        background: #fff;
+        border: 1px solid white;
+        max-width: 400px;
+        width: 100%;
+        transition: all 0.5s;
+      }
+      .card:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        
+        /* border: 1px solid green; */
+        box-shadow: 3px 3px 5px gray;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid #87c4ff;
+      }
+      h3 {
+        margin: 1rem 0;
+      }
+      ::-webkit-scrollbar {
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: white;
+        border-radius: 25px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #39a7ff;
+        border-radius: 25px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #87c4ff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="form">
+      <form>
+        <div>
+          <label for="fname">Name</label>
+          <input type="text" id="fname" />
+        </div>
+        <div>
+          <label for="intro">Intro</label>
+          <input type="text" id="intro" />
+        </div>
+        <div>
+          <label for="img">Image</label>
+          <input type="file" id="img" accept="image/*" />
+        </div>
+
+        <button id="user-form">Submit</button>
+      </form>
+    </div> -->
+    <div class="container"></div>
+
+    <script src="./script.js"></script>
+    
+  </body>
+</html>

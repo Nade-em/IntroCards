@@ -1,0 +1,39 @@
+[
+  {
+    "fname": "Kimber Ho",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text. ",
+    "img": "https://picsum.photos/id/233/150/150"
+  },
+  {
+    "fname": "Raquel McMillan",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text. ",
+    "img": "https://picsum.photos/id/232/150/150"
+  },
+  {
+    "fname": "Cameron Schultz",
+    "lname": "Ahmad",
+
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "img": "https://picsum.photos/id/250/150/150"
+  },
+  {
+    "fname": "Van Anthony",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "img": "https://picsum.photos/id/251/150/150"
+  },
+  {
+    "fname": "Chandler Estrada",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "img": "https://picsum.photos/id/252/150/150"
+  },
+  {
+    "fname": "Connor Rowland",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "img": "https://picsum.photos/id/253/150/150"
+  },
+  {
+    "fname": "ALiv Cannon",
+    "intro": "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+    "img": "https://picsum.photos/id/254/150/150"
+  }
+]
